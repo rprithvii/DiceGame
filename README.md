@@ -68,6 +68,6 @@ This project is open-source and available under the MIT License.
 2.  **numpy:** Make sure you have `numpy` listed in your `requirements.txt` as we discussed earlier.
 3.  **Folder structure:** Ensure your `.py` files are inside a folder named `src` for the "Project Structure" section above to be accurate.
 
-
+Play the game on Replit: https://replit.com/@mailprithvi/DiceGame
 
 **Would you like me to help you write the code for the `main.py` file to make sure it imports the classes from the `src` folder correctly?**
