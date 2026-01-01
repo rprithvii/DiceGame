@@ -1,4 +1,6 @@
 import numpy as np
+
+
 class Die:
     def __init__(self, die_value = None):
         self._die_value = die_value
