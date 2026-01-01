@@ -1,4 +1,6 @@
 class Player:
+
+    
     def __init__(self, die, is_computer, counter = 5):
         self.die = die
         self.is_computer = is_computer
