@@ -1,19 +1,27 @@
 class DiceGame:
 
-    
     def __init__(self, human_player, comp_player):
         self.human_player = human_player
         self.comp_player = comp_player
 
     def start_game(self):
         round_counter = 1
-        print(f"Welcome to the Dice Game!!")
+        print(f"--------------------------------------------------------")
+        print(f"--------------------------------------------------------")
+        print(f"--------------------------------------------------------")
+        print(f"--------------------------------------------------------")
+        print(f"--------------Welcome to the Dice Game!!----------------")
+        print(f"--------------------------------------------------------")
+        print(f"--------------------------------------------------------")
+        print(f"--------------------------------------------------------")
+        print(f"--------------------------------------------------------")
         print(f"You are the player and will be playing against the computer. You will roll the dice"
               "followed by the computer. The player with the higher roll wins the round.")
         print(f"Your score: {self.human_player.counter} | Computer score: {self.comp_player.counter}")
         
         while self.human_player.counter > 0 and self.comp_player.counter > 0:
             
+            print("")
             print(f"Round: {round_counter}")
             self.start_round()
             round_counter = round_counter + 1
