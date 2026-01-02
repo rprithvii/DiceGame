@@ -22,7 +22,7 @@ class DiceGame:
         while self.human_player.counter > 0 and self.comp_player.counter > 0:
             
             print("")
-            print(f"Round: {round_counter}")
+            print(f"---------Round: {round_counter}----")
             self.start_round()
             round_counter = round_counter + 1
             
