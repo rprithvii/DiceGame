@@ -3,6 +3,8 @@
 A modular, object-oriented Python implementation of a classic dice game. This project demonstrates clean code principles by separating game logic, player management, and hardware simulation (the Die) into distinct modules.
 
 ---
+# 🎲 Play the game on Replit
+https://replit.com/@mailprithvi/DiceGame
 
 ## 📝 Game Rules
 - Both the **Player** and the **Computer** start with a counter of **5**.
@@ -67,7 +69,5 @@ This project is open-source and available under the MIT License.
 1.  **File Naming:** Ensure the file is named exactly `README.md`.
 2.  **numpy:** Make sure you have `numpy` listed in your `requirements.txt` as we discussed earlier.
 3.  **Folder structure:** Ensure your `.py` files are inside a folder named `src` for the "Project Structure" section above to be accurate.
-
-Play the game on Replit: https://replit.com/@mailprithvi/DiceGame
 
 **Would you like me to help you write the code for the `main.py` file to make sure it imports the classes from the `src` folder correctly?**
