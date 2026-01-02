@@ -27,9 +27,19 @@ class DiceGame:
             round_counter = round_counter + 1
             
         if self.human_player.counter == 0:
-            print(f"Congratulations!! You have won the game.")
+            print(f"----------------------------------------")
+            print(f"----------------------------------------")
+            print(f"----------------Game Over---------------")
+            print(f"----------------------------------------")
+            print(f"----------------------------------------")
+            print(f"-->>Congratulations!! You have won the game.")
         elif self.comp_player.counter == 0:
-            print(f"Computer won the game. Better luck next time")
+            print(f"----------------------------------------")
+            print(f"----------------------------------------")
+            print(f"----------------Game Over---------------")
+            print(f"----------------------------------------")
+            print(f"----------------------------------------")
+            print(f"-->>Computer won the game. Better luck next time")
             
     def start_round(self):
         # round_counter = 1
