@@ -51,4 +51,8 @@ class DiceGame:
         else:
             print(f"This round is a tie")
 
-        print(f"Latest scores -> Your score: {self.human_player.counter}, Computer score: {self.comp_player.counter}")
+        # print(f"Latest scores -> Your score: {self.human_player.counter}, Computer score: {self.comp_player.counter}")
+        self.show_scores()
+
+    def show_scores(self):
+        print(f"Your score: {self.human_player.counter} | Computer score: {self.comp_player.counter}")
